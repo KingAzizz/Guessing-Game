@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#section-game{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    padding: 60px;
+   
+    height: 100%;
+}
+
+
+form{
+ padding: 20px;
+ height: 100%;
+}
+input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+   width: 300px;
+   height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    color: #000;
+    margin-bottom: 10px;
+margin: 40px;
+    
+}
+label{
+    padding: 30px;
+    position: relative;
+    top: 0;
+}
+@media (max-width: 1213px) {
+
+    label{
+        padding: 30px;
+        position: relative;
+        top: 0;
+    }
+
+    
+}
+#btn-submit{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all .4s ease-in-out;
+   
+}
+
+#btn-submit:hover{
+    background-color: #000;
+    color: #fff;
+box-shadow: inset #000 0px 0px 0 900px;
+
+}
+
+#result{
+  
+  letter-spacing: 2px;
+
+}
