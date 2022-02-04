@@ -31,17 +31,14 @@ const check = (playerNumberOne,playerNumberTwo) => {
     if(playerNumberOne === closestNumber){
         result.innerHTML = `Player one Wins
         the number is: ${number}`
-        console.log(number);
     }
     if(playerNumberTwo === closestNumber){
         result.innerHTML = `Player Two Wins
         the number is: ${number}`
-        console.log(number);
     }
     if(number === playerNumberOne && number === playerNumberTwo){
         result.innerHTML = `Draw
         the number is: ${number}`
-        console.log(number);
     }
    
 
