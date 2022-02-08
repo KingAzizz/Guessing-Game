@@ -24,6 +24,7 @@ form{
  padding: 20px;
  height: 100%;
 }
+
 input{
     outline: none;
     border: none;
@@ -39,21 +40,18 @@ input{
 margin: 40px;
     
 }
+input:in-range{
+    color: green;
+}
+input:out-of-range{
+    color: red;
+}
 label{
     padding: 30px;
     position: relative;
     top: 0;
 }
-@media (max-width: 1213px) {
 
-    label{
-        padding: 30px;
-        position: relative;
-        top: 0;
-    }
-
-    
-}
 #btn-submit{
     position: absolute;
     width: 100%;
@@ -80,9 +78,44 @@ label{
 box-shadow: inset #000 0px 0px 0 900px;
 
 }
+#reset{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#reset:hover{ background-color: #f2f2f2; color: #000;}
 
 #result{
   
   letter-spacing: 2px;
 
+}
+#scoreP1,#scoreP2{
+    position:absolute ;
+   left: 110px;
+}
+
+@media (max-width: 1213px) {
+
+    label{
+        padding: 30px;
+        position: relative;
+        top: 0;
+    }
+    #scoreP1,#scoreP2{
+        position:relative ;
+        left: 0;
+    }
+    #reset{
+     left: 250px;
+       
+    }
+
+    
 }
